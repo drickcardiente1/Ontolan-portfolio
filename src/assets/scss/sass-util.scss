@@ -1,46 +1,17 @@
 @import "sass-util/variables";
 @import "sass-util/mixins";
-
-// Plugins CSS
 @import "sass-util/plugins/plugin-bootstrap-switch";
-@import "sass-util/plugins/plugin-nouislider";
-@import "sass-util/plugins/plugin-datepicker";
-
-// Core CSS
 @import "sass-util/buttons";
 @import "sass-util/inputs";
-@import "sass-util/checkbox-radio";
-@import "sass-util/progress-bars";
-@import "sass-util/badges";
-@import "sass-util/pagination";
-@import "sass-util/typography";
-@import "sass-util/misc";
-@import "sass-util/labels";
-
-// components
 @import "sass-util/nucleo-icons";
 @import "sass-util/social-buttons";
 @import "sass-util/tabs-navs";
 @import "sass-util/navbars";
 @import "sass-util/dropdown";
-@import "sass-util/alerts";
 @import "sass-util/images";
-@import "sass-util/tooltips-and-popovers";
-@import "sass-util/modal";
 @import "sass-util/icons";
-@import "sass-util/carousel";
 @import "sass-util/footers";
-
-// Cards
-@import "sass-util/cards";
-@import "sass-util/cards/card-plain";
-@import "sass-util/cards/card-register";
-@import "sass-util/cards/card-profile";
-
-// example pages and sections
-@import "sass-util/examples";
+@import "sass-util/kit";
 @import "sass-util/sections";
 @import "sass-util/responsive";
-
-// React Differences
 @import "react/react-differences.scss";
